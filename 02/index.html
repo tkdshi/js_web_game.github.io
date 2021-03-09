@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8" />
+	<title>インタラクティブフィクション</title>
+	<link href="main.css" rel="stylesheet">
+</head>
+<body>
+	<div id="impress">
+		<div id="1" class="step slide">
+			<div class="slide-text">
+				<p>タイムマシンがある。</p>
+				<p><a href="#2">スイッチを入れる</a></p>
+				<p><a href="#3">なにもしない</a></p>
+			</div>
+		</div>
+		<div id="2" class="step slide"　data-x="1500">
+		<q>次ページ</q>
+		</div>
+		<div id="3" class="step slide" data-x="-1500">
+		<q>最後のページ</q>
+		</div>
+	</div>
+	<script src="impress.js"></script>
+	<script>impress().init();</script>
+	</body>
+</html>
